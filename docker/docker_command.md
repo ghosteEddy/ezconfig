@@ -1,5 +1,5 @@
 ### Command ###
-# Docker compose alias
+# Docker compose
 - docker compose ps --format "table {{.Service}}\t{{.Status}}\t{{.Image}}"
 - docker compose down && docker compose up -d
 - docker compose pull
