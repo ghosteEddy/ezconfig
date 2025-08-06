@@ -3,9 +3,12 @@
 ## Set up
 
 ### Set alias for MC
-```mc alias set {alias} http://host:port {user} {password}```
-Example
-```mc alias set local http://host:port minioadmin minioadmin```
+```mc alias set {alias} http://host:port {user} {password}```   
+
+Example  
+
+```mc alias set local http://host:port minioadmin minioadmin```  
+
 
 
 ## User
@@ -22,7 +25,8 @@ Example
 ```mc admin group ls {alias}```
 
 ### Create user group
-Must be create and add user only, cannot create empty group
+Must be create and add user only, cannot create empty group  
+
 ```mc admin group add {alias} {group} {user1} {user2} ...```
 
 ## Policy
